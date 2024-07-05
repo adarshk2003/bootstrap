@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <title>forbes.com</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
          *{
@@ -12,8 +12,18 @@
          }
          .dys{
             gap: 10px;
-            margin-left: 26%;
+            margin-left: 19%;
          }
+         ul{
+          gap: 20px;
+         }
+         .col-8 {
+          flex:0 0 auto;
+          width:59.66666667%
+        }
+        .row{
+          --bs-gutter-x :0.5rem;  
+        }
  
         </style>
   </head>
@@ -27,7 +37,22 @@
                        <img src="/images/icons8-menu-50.png" width="25PX">
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
+                        <li><a class="dropdown-item disabled" href="#">section</a></li>
+                        <li><a class="dropdown-item" href="#"> Subscribe</a></li>
+                        <ul class="navbar-nav text">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropright
+                              </button>
+                             Leadership
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
+                              <li><a class="dropdown-item" href="#">All Stories</a></li>
+                            </ul>
+                          </li>
+                        </ul>
                         <li><a class="dropdown-item" href="#">All Stories</a></li>
                       </ul>
                     </li>
@@ -95,6 +120,42 @@
               </div>
             </div>
           </nav>
+    </div>
+    <div class="container mt-4">
+      <img src="/images/2405240919_banner-1210X150.jpg"  >
+    </div>
+    <div class="container mt-4">
+      <div class="row min-vh-90">
+        <div class="col-8 bg-danger ">
+          <div class="row "> 
+            <div class="col-6" >
+            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+              <div class="carousel-indicators " style="top: 95%;">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                  <img src="/images/img_236337_prashantjain.jpg" class="d-block w-100  " alt="..." height="300px">
+                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/img_236374_farmer.jpg" class="d-block w-100"  alt="...">
+                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain</h3> </a>
+                </div>
+                <div class="carousel-item">
+                  <img src="/images/img_236321_agnikul.jpg" class="d-block w-100 " alt="...">
+                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6"></div>
+        </div>
+        </div>
+        <div class="col-4 bg-warning"> hello</div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

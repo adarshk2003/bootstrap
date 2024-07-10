@@ -1,348 +1,455 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>forbes.com</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-         *{
-            font-family: "Oswald",sans-serif;
-         }
-         .dys{
-            gap: 10px;
-            margin-left: 19%;
-         }
-         ul{
-          gap: 20px;
-         }
-         .col-8 {
-          flex:0 0 auto;
-          width:59.66666667%
-        }
-        .row{
-          --bs-gutter-x :0.5rem; 
-          
-        }
-        span{
-          font-family: "Baskervville SC", serif;
-        }
-        .gt3{
-          margin-left: 100px;
-        }
-        .iykyk{
-          margin-left: 100px;
-          margin-top: 123px;
-        }
-        .circlee{
-          height: 100px;
-          width: 100px;
-          top: 59%;
-          left: 59%;
-        }   
-        .fontsss{
-          font-family:"Playfair Display", serif;
-        }  
-        .ytsh span{
-          font-family:"Playfair Display", serif;
-        }
- 
-        </style>
-  </head>
-  <body>
-    <div class="container-fluid ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark " >
-            <div class="container  dys  mt-5 pt-4" style="margin-left: 350px;">
-                <ul class="navbar-nav text">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link  text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       <img src="/images/icons8-menu-50.png" width="25PX">
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item disabled" href="#">section</a></li>
-                        <li><a class="dropdown-item" href="#"> Subscribe</a></li>
-                        <ul class="navbar-nav text">
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> -->
-                              
-                              </button>
-                             Leadership
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
-                              <li><a class="dropdown-item" href="#">All Stories</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <li><a class="dropdown-item" href="#">All Stories</a></li>
-                      </ul>
-                    </li>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>forbes.com</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+    * {
+      font-family: "Oswald", sans-serif;
+      box-sizing: border-box;
+    }
+
+    .dys {
+      gap: 10px;
+      margin-left: 19%;
+    }
+
+    ul {
+      gap: 20px;
+    }
+
+    .col-8 {
+      flex: 0 0 auto;
+      width: 59.66666667%
+    }
+
+    .row {
+      --bs-gutter-x: 0.5rem;
+
+    }
+
+    span {
+      font-family: "Baskervville SC", serif;
+    }
+
+    .gt3 {
+      margin-left: 100px;
+    }
+
+    .iykyk {
+      margin-left: 100px;
+      margin-top: 123px;
+    }
+
+    .circlee {
+      height: 100px;
+      width: 100px;
+      top: 59%;
+      left: 59%;
+    }
+
+    .fontsss {
+      font-family: "Playfair Display", serif;
+    }
+
+    .ytsh span {
+      font-family: "Playfair Display", serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+      <div class="container  dys  mt-5 pt-4" style="">
+        <ul class="navbar-nav text">
+          <li class="nav-item dropdown">
+            <a class="nav-link  text-light" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/images/icons8-menu-50.png" width="25PX">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item disabled" href="#">section</a></li>
+              <li><a class="dropdown-item" href="#"> Subscribe</a></li>
+              <ul class="navbar-nav text">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> -->
+
+                    </button>
+                    Leadership
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
+                    <li><a class="dropdown-item" href="#">All Stories</a></li>
                   </ul>
-                
-              <a class="navbar-brand text-light" href="#"><img src="/images/forbes-logo.png"></a>
-              <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" text-light></span>
+                </li>
+              </ul>
+              <li><a class="dropdown-item" href="#">All Stories</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <a class="navbar-brand text-light" href="#"><img src="/images/forbes-logo.png"></a>
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" text-light></span>
+        </button>
+
+      
+        <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+            <ul class="navbar-nav text">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              LEADERSHIP
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
+              <li><a class="dropdown-item" href="#">All Stories</a></li>
+            </ul>
+          </li>
+        </ul>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-light">
+              <a class="nav-link active text-light" aria-current="page" href="#">INNOVATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">BILLIONAIRES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">LIST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">STARTUPS</a>
+            </li>
+            <div class="dropdown bg-dark">
+              <button class="btn btn-secondary  dropdown-toggle  bg-dark  border-0" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                PODCAST
               </button>
-           
-                <ul class="navbar-nav text">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     LEADERSHIP
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Mentors and Mavens</a></li>
-                      <li><a class="dropdown-item" href="#">All Stories</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              
-              <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item text-light">
-                    <a class="nav-link active text-light" aria-current="page" href="#">INNOVATION</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">BILLIONAIRES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">LIST</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">STARTUPS</a>
-                  </li>
-                  <div class="dropdown bg-dark">
-                    <button class="btn btn-secondary  dropdown-toggle  bg-dark  border-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    PODCAST
-                    </button>
-                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item text-light " href="#">Action</a></li>
-                      <li><a class="dropdown-item text-light" href="#">Another action</a></li>
-                      <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
-                    </ul>
-                  </div>
-                  <div class="dropdown bg-dark">
-                    <button class="btn btn-secondary  dropdown-toggle  bg-dark  border-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        VIDEOS
-                    </button>
-                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item text-light " href="#">Action</a></li>
-                      <li><a class="dropdown-item text-light" href="#">Another action</a></li>
-                      <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
-                    </ul>
-                  </div>
-                  <li class="nav-item">
-                    <a class="nav-link text-danger" href="#">SUBSCRIBE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-danger" href="#">LOGIN</a>
-                  </li>
-                  <button class="btn btn-dark border-0 "><img src="/images/icons8-search-50.png" width="25px"></button>
-                </ul>
-              </div>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+              </ul>
             </div>
-          </nav>
-    </div>
-    <div class="container mt-4 w-100 " >
-      <img style="width: 100%; height: auto;" src="/images/2405240919_banner-1210X150.jpg"  >
-    </div>
-    <div class="container mt-4">
-      <div class="row min-vh-90">
-        <div class="col-xs-12  col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-          <div class="row "> 
-            <div class="col-xs-12  col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" >
+            <div class="dropdown bg-dark">
+              <button class="btn btn-secondary  dropdown-toggle  bg-dark  border-0" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                VIDEOS
+              </button>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">LOGIN</a>
+            </li>
+            <button class="btn btn-dark border-0 "><img src="/images/icons8-search-50.png" width="25px"></button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="container mt-4 w-100 ">
+    <img style="width: 100%; height: auto;" src="/images/2405240919_banner-1210X150.jpg">
+  </div>
+  <div class="container mt-4">
+    <div class="row min-vh-90">
+      <div class="col-xs-12  col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+        <div class="row ">
+          <div class="col-xs-12  col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
               <div class="carousel-indicators " style="top: 100%; size: 20px;">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"class="bg-dark"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="bg-dark"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                  class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2" class="bg-dark"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3" class="bg-dark"></button>
               </div>
               <div class="carousel-inner ">
                 <div class="carousel-item active ">
                   <img src="/images/img_236337_prashantjain.jpg" class="d-block w-100  " alt="..." height="auto">
-                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3></a>
+                  <a href="" class="text-decoration-none  link-dark fw-bold">
+                    <h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3>
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/images/img_236374_farmer.jpg" class="d-block w-100"  alt="...">
-                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain</h3> </a>
+                  <img src="/images/img_236374_farmer.jpg" class="d-block w-100" alt="...">
+                  <a href="" class="text-decoration-none  link-dark fw-bold">
+                    <h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain</h3>
+                  </a>
                 </div>
                 <div class="carousel-item">
                   <img src="/images/img_236321_agnikul.jpg" class="d-block w-100 " alt="...">
-                  <a href="" class="text-decoration-none  link-dark fw-bold"><h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3> </a>
+                  <a href="" class="text-decoration-none  link-dark fw-bold">
+                    <h3>MNCs selling stake is a very important signal: 3P Investment's Prashant Jain </h3>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="row ms-4 spcrow">
-              <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller;"><a href="#" class="text-decoration-none link-dark">NEWS</a></h6>
-              <span style="font-size:large; font-weight:500;">T20 World Cup Victory Parade: A celebration like no other</span>
-               <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">Forbes India </a></p>
-            </div>
-            <div class="row ms-4 spcrow">
-              <h6 style="font-family: 'Courier New', Courier, monospace; font-size: x-small; color: rgb(123, 7, 255);   ">TAKE ONE :BIG STORY OF THE DAY ...............</h6>
-              <span style="font-size:large; font-weight:500;">MNCs selling stake is a very important signal: 3P Investment's Prashant Jain</span>
-               <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">Neha Bothra</a></p>
-            </div>
-            <div class="row ms-4 spcrow">
-              <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller; color: navy;"><a href="#" class="text-decoration-none link-dark">NEWS........................................................................</a></h6>
-              <span style="font-size:large; font-weight:500;">How India Eats: Heat, unseasonal rains, virus infestation push veg thali prices higher in June</span>
-               <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##" class="text-decoration-none" style="color: navy;font-size: small;">Nasrin Sultana</a></p>
-            </div>
-            <div class="row ms-4 spcrow">
-              <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller; color: navy;">FORBES INDIA TECH CONVERSATIONS</h6>
-              <span style="font-size:large; font-weight:500;">Deep Tech India: Why Arpit Agarwal at Blume wants to see a lot more patient capital</span>
-               <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##" class="text-decoration-none" style="color: navy;font-size: small;">Forbes India </a></p>
+          <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="row">
+              <div class="row ms-4 spcrow">
+                <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller;"><a href="#"
+                    class="text-decoration-none link-dark">NEWS</a></h6>
+                <span style="font-size:large; font-weight:500;">T20 World Cup Victory Parade: A celebration like no
+                  other</span>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">Forbes India </a></p>
+              </div>
+              <div class="row ms-4 spcrow">
+                <h6
+                  style="font-family: 'Courier New', Courier, monospace; font-size: x-small; color: rgb(123, 7, 255);   ">
+                  TAKE ONE :BIG STORY OF THE DAY ...............</h6>
+                <span style="font-size:large; font-weight:500;">MNCs selling stake is a very important signal: 3P
+                  Investment's Prashant Jain</span>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">Neha Bothra</a></p>
+              </div>
+              <div class="row ms-4 spcrow">
+                <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller; color: navy;"><a href="#"
+                    class="text-decoration-none link-dark">NEWS........................................................................</a>
+                </h6>
+                <span style="font-size:large; font-weight:500;">How India Eats: Heat, unseasonal rains, virus
+                  infestation push veg thali prices higher in June</span>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##"
+                    class="text-decoration-none" style="color: navy;font-size: small;">Nasrin Sultana</a></p>
+              </div>
+              <div class="row ms-4 spcrow">
+                <h6 style="font-family: 'Courier New', Courier, monospace; font-size: smaller; color: navy;">FORBES
+                  INDIA TECH CONVERSATIONS</h6>
+                <span style="font-size:large; font-weight:500;">Deep Tech India: Why Arpit Agarwal at Blume wants to see
+                  a lot more patient capital</span>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by &nbsp;<a href="##"
+                    class="text-decoration-none" style="color: navy;font-size: small;">Forbes India </a></p>
+              </div>
             </div>
           </div>
           <div class="col-12"><img src="/images/borderss.png" alt="" style="height: auto; width: 100%;"></div>
           <div class="col-12">
             <div class="row mt-5 ">
-          <div class="col" >
-            <a href="#" class="bg-warning text-decoration-none link-light">LEADERSHIP</a>
-            <p class="fontsss fs-6" style="font-size: medium;">To improve quality standards, we need to build a robust culture: Sun Pharma's Dilip Shanghvi</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;"> Naini Thaker</a></p>
-            <p>During the recent Global Pharmaceutical Quality Summit 2024, Shanghvi <a href="#" class="text-decoration-none">read more</a></p>
-            <div>.........................................................</div>
-          </div>
-          <div class="col">
-            <a href="#" style="background-color: navy;" class="text-decoration-none  link-light"  >NEWS</a>
-            <p class="fontsss fs-6" style="font-size: medium;">How the NEET saga unfolded</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">  Pankti Mehta Kadakia, Anubhuti Matta, Naini Thaker</a></p>
-            <p>As lakhs of students and their families await the Supreme Court's  <a href="#" class="text-decoration-none">read more</a></p>
-            <div>.........................................................</div>
-          </div>
-          <div class="col">
-            <a href="#" style="background-color: #933F65;" class="link-light text-decoration-none">INNOVATION</a>
-            <p class="fontsss fs-6" style="font-size: medium;">How Oorja is mixing physics and data for predictive analysis</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">  Harichandan Arakali</a></p>
-            <p>Combining physics-based modelling and machine learning, the startup ha  <a href="#" class="text-decoration-none">read more</a></p>
-            <div>.........................................................</div>
-          </div>
-          <div class="col">
-            <a href="#" style="background-color: #627F48;" class="link-light text-decoration-none">  FUQUA SCHOOL OF BUSINESS</a>
-            <p class="fontsss fs-6" style="font-size: medium;">The future of gold prices</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">Fuqua School of Business</a></p>
-            <p>Professor Campbell Harvey says gold is as volatile as the S&P 500, <a href="#" class="text-decoration-none">read more</a></p>
-            <div>.........................................................</div>
-          </div>
-        </div>
-        </div>
-        <div class="col-12">
-          <div class="row">
-            <div class="col-4 d-flex flex-column gap-2">
-              <img src="/images/ajaybijlism.jpg" height="auto" width="100%">
-             <span> <a href="#" style="background-color:#4774A8;" class="link-light text-decoration-none">BEYOND THE BOARDROOM</a></span>
-             <p class="fontsss fs-6" style="font-size: medium;">The story behind Ajay Bijli's PVR - and when the honcho turned singer</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">Tejeesh Nippun Singh</a></p>
-            <p>Ajay Bijli is the managing director of PVR-INOX, the country's la <a href="#" class="text-decoration-none">read more</a></p>
-                         
-            </div>
-            <div class="col-4 d-flex flex-column gap-2">
-              <img src="/images/img_236472_mohd_hossein_aghamiri.jpg" height="auto" width="100%">
-              <span><a href="#" style="background-color:#065052;" class="link-light text-decoration-none p-1 ">LIFE</a></span>
-              <p class="fontsss fs-6" style="font-size: medium;">Slow art: The master illuminator of Tehran</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">AFPRelaxnews</a></p>
-            <p>In the age of AI-assisted graphic design on computer screens, the cent  <a href="#" class="text-decoration-none">read more</a></p>
-         
-            </div>
-            <div class="col-4 d-flex flex-column gap-2">
-            <img src="/images/img_236480_shibuya_zarny.jpg" height="auto" width="100%" >
-           <span> <a href="#" style="background-color:#065052;" class="link-light text-decoration-none p-1 ">LIFE</a></span>
-           <p class="fontsss fs-6" style="font-size: medium;">Zarny: Myanmar refugee turned Tokyo designer</p>
-            <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">AFPRelaxnews</a></p>
-            <p>Professor Campbell Harvey says gold is as volatile as the S&P 500, <a href="#" class="text-decoration-none">read more</a></p>
-          </div>
-          </div>
-        </div>
-        <div class="col-12 mt-5">
-          <div class="row">
-            <div class="col-4">
-              <div class="row ytsh">
-                <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark" style="color: #933F65;">INNOVATION</a></h6>
-                <span style="font-size:large; font-weight:500;">From Aerostrovilos to Bellatrix Aerospace: Deeptech startups, one year on</span>
-                 <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;"> Harichandan Arakali </a></p>
+              <div class="col">
+                <a href="#" class="bg-warning text-decoration-none link-light">LEADERSHIP</a>
+                <p class="fontsss fs-6" style="font-size: medium;">To improve quality standards, we need to build a
+                  robust culture: Sun Pharma's Dilip Shanghvi</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;"> Naini Thaker</a></p>
+                <p>During the recent Global Pharmaceutical Quality Summit 2024, Shanghvi <a href="#"
+                    class="text-decoration-none">read more</a></p>
+                <div>.........................................................</div>
               </div>
-              <div class="row ytsh">
-                <h6 style="font-size: smaller; color:#4774A8;"><a href="#" class="text-decoration-none link-dark" style="color: #4774A8;">BRAND CONNECT..........................</a></h6>
-                <span style="font-size:large; font-weight:500;">Top 5 best shopify development companies in India</span>
-                 <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;"><a href="##" class="text-decoration-none" style="color: navy; font-size: small;"> Brand Connect </a></p>
+              <div class="col">
+                <a href="#" style="background-color: navy;" class="text-decoration-none  link-light">NEWS</a>
+                <p class="fontsss fs-6" style="font-size: medium;">How the NEET saga unfolded</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;"> Pankti Mehta Kadakia, Anubhuti
+                    Matta, Naini Thaker</a></p>
+                <p>As lakhs of students and their families await the Supreme Court's <a href="#"
+                    class="text-decoration-none">read more</a></p>
+                <div>.........................................................</div>
               </div>
-              <div class="row ytsh">
-                <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark" style="color: #933F65;">INNOVATION............</a></h6>
-                <span style="font-size:large; font-weight:500;">Inside Agnikul, the Indian space launch vehicle startup making global history</span>
-                 <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;"> Harichandan Arakali </a></p>
+              <div class="col">
+                <a href="#" style="background-color: #933F65;" class="link-light text-decoration-none">INNOVATION</a>
+                <p class="fontsss fs-6" style="font-size: medium;">How Oorja is mixing physics and data for predictive
+                  analysis</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;"> Harichandan Arakali</a></p>
+                <p>Combining physics-based modelling and machine learning, the startup ha <a href="#"
+                    class="text-decoration-none">read more</a></p>
+                <div>.........................................................</div>
               </div>
-              <div class="row ytsh">
-                <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark" style="color: #933F65;">TAKE ONE: BIG STORY OF THE DAY............</a></h6>
-                <span style="font-size:large; font-weight:500;">NEET Exam Row: Students in Kota helpless, frustrated, angry and confused</span>
-                 <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;"> Anubhuti Matta </a></p>
-              </div>
-              <div class="row ytsh">
-                <h6 style="font-size: smaller; color:#933F65;"><a href="#" class="text-decoration-none link-dark" style="color: #933F65;">NEWS</a></h6>
-                <span style="font-size:large; font-weight:500;"> Linking CEO Compensation with ESG markets is the worst idea: Rajeev Peshawaria</span>
-                 <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##" class="text-decoration-none" style="color: navy; font-size: small;">  Divya J Shekhar </a></p>
+              <div class="col">
+                <a href="#" style="background-color: #627F48;" class="link-light text-decoration-none"> FUQUA SCHOOL OF
+                  BUSINESS</a>
+                <p class="fontsss fs-6" style="font-size: medium;">The future of gold prices</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">Fuqua School of Business</a></p>
+                <p>Professor Campbell Harvey says gold is as volatile as the S&P 500, <a href="#"
+                    class="text-decoration-none">read more</a></p>
+                <div>.........................................................</div>
               </div>
             </div>
-            <div class="col-8 d-flex flex-column gap-2">
-             <img src="/images/img_236517_russia_indiapoliticaldiplomacy.jpg" height="auto" width="80%" style="margin-left: 30px;">
-             <div style="margin-left: 30px;"><a href="#" style="background-color:#4774A8;"  class="text-decoration-none link-light">PHOTO OF THE DAY</a></div>
-             <div class="text-decoration-none" style="color: rgb(0, 0, 0); font-size: small; text-align: center; width: 85%; margin-left: 20px;"> In this pool photograph distributed by the Russian state agency Sputnik, Russia's President Vladimir Putin and Indian Prime Minister Narendra Modi take a walk during an informal meeting at the Novo-Ogaryovo state residence, outside Moscow, on July 8, 2024.</div>
-             <div style="font-style: italic; font-size: small; margin-left: 30px; margin-top: 20px;">Image: Gavriil Grigorov / Pool / AFP </div>
-            
-            </div>
           </div>
-        </div>
-        <div class="col-12"><img src="/images/borderss.png" alt="" style="height: auto; width: 100%;"></div>
-        <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Popular Now</h2>
-        <div class="col-12">
-          <div class="row">
-            <div class="col-4 d-flex flex-column gap-2">
-              <img src="/images/img_236520_dennis_woodside.jpg" height="auto" width="100%">
-              <span><a href="" class="text-decoration-none link-light bg-warning">LEADERSHIP</a></span> 
-              <span style="font-size:large; font-weight:500;">"We will tap our India advantage for international expansion": Freshworks CEO</span>
-            </div>
-            <div class="col-4 col-4 d-flex flex-column gap-2">
-              <img src="/images/img_236517_russia_indiapoliticaldiplomacy.jpg" height="auto" width="100%">
-              <span><a href="" class="text-decoration-none link-light bg-warning">PHOTO OF THE DAY</a></span>
-              <span style="font-size:large; font-weight:500;">"Photo of the day: Balancing equations</span>
+          <div class="col-12">
+            <div class="row">
+              <div class="d-flex flex-column gap-2 col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/ajaybijlism.jpg" height="auto" width="100%">
+                <span> <a href="#" style="background-color:#4774A8;" class="link-light text-decoration-none">BEYOND THE
+                    BOARDROOM</a></span>
+                <p class="fontsss fs-6" style="font-size: medium;">The story behind Ajay Bijli's PVR - and when the
+                  honcho turned singer</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">Tejeesh Nippun Singh</a></p>
+                <p>Ajay Bijli is the managing director of PVR-INOX, the country's la <a href="#"
+                    class="text-decoration-none">read more</a></p>
 
-            </div>
-            <div class="col-4 col-4 d-flex flex-column gap-2">
-              <img src="/images/img_236514_prashantjain.jpg" height="auto" width="100%">
-              <span><a href="" style="background-color: #4774A8;" class="text-decoration-none link-light ">TAKE ONE: BIG STORY OF THE DAY</a></span>
-              <span style="font-size:large; font-weight:500;">There isn't room for current market multiples to move up: Prashant Jain</span>
+              </div>
+              <div class=" d-flex flex-column gap-2  col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/img_236472_mohd_hossein_aghamiri.jpg" height="auto" width="100%">
+                <span><a href="#" style="background-color:#065052;"
+                    class="link-light text-decoration-none p-1 ">LIFE</a></span>
+                <p class="fontsss fs-6" style="font-size: medium;">Slow art: The master illuminator of Tehran</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">AFPRelaxnews</a></p>
+                <p>In the age of AI-assisted graphic design on computer screens, the cent <a href="#"
+                    class="text-decoration-none">read more</a></p>
 
-         
+              </div>
+              <div class="d-flex flex-column gap-2 col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/img_236480_shibuya_zarny.jpg" height="auto" width="100%">
+                <span> <a href="#" style="background-color:#065052;"
+                    class="link-light text-decoration-none p-1 ">LIFE</a></span>
+                <p class="fontsss fs-6" style="font-size: medium;">Zarny: Myanmar refugee turned Tokyo designer</p>
+                <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                    class="text-decoration-none" style="color: navy; font-size: small;">AFPRelaxnews</a></p>
+                <p>Professor Campbell Harvey says gold is as volatile as the S&P 500, <a href="#"
+                    class="text-decoration-none">read more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-5">
+            <div class="row">
+              <div class="col-4">
+                <div class="row ytsh">
+                  <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark"
+                      style="color: #933F65;">INNOVATION</a></h6>
+                  <span style="font-size:large; font-weight:500;">From Aerostrovilos to Bellatrix Aerospace: Deeptech
+                    startups, one year on</span>
+                  <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                      class="text-decoration-none" style="color: navy; font-size: small;"> Harichandan Arakali </a></p>
+                </div>
+                <div class="row ytsh">
+                  <h6 style="font-size: smaller; color:#4774A8;"><a href="#" class="text-decoration-none link-dark"
+                      style="color: #4774A8;">BRAND CONNECT..........................</a></h6>
+                  <span style="font-size:large; font-weight:500;">Top 5 best shopify development companies in
+                    India</span>
+                  <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;"><a href="##"
+                      class="text-decoration-none" style="color: navy; font-size: small;"> Brand Connect </a></p>
+                </div>
+                <div class="row ytsh">
+                  <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark"
+                      style="color: #933F65;">INNOVATION............</a></h6>
+                  <span style="font-size:large; font-weight:500;">Inside Agnikul, the Indian space launch vehicle
+                    startup making global history</span>
+                  <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                      class="text-decoration-none" style="color: navy; font-size: small;"> Harichandan Arakali </a></p>
+                </div>
+                <div class="row ytsh">
+                  <h6 style="font-size: smaller; color: #933F65;"><a href="#" class="text-decoration-none link-dark"
+                      style="color: #933F65;">TAKE ONE: BIG STORY OF THE DAY............</a></h6>
+                  <span style="font-size:large; font-weight:500;">NEET Exam Row: Students in Kota helpless, frustrated,
+                    angry and confused</span>
+                  <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                      class="text-decoration-none" style="color: navy; font-size: small;"> Anubhuti Matta </a></p>
+                </div>
+                <div class="row ytsh">
+                  <h6 style="font-size: smaller; color:#933F65;"><a href="#" class="text-decoration-none link-dark"
+                      style="color: #933F65;">NEWS</a></h6>
+                  <span style="font-size:large; font-weight:500;"> Linking CEO Compensation with ESG markets is the
+                    worst idea: Rajeev Peshawaria</span>
+                  <p style="font-size: x-small; font-family: 'Courier New', Courier, monospace;">by<a href="##"
+                      class="text-decoration-none" style="color: navy; font-size: small;"> Divya J Shekhar </a></p>
+                </div>
+              </div>
+              <div class=" d-flex flex-column gap-2 col-xs-12  col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+                <img src="/images/img_236517_russia_indiapoliticaldiplomacy.jpg" height="auto" width="80%"
+                  style="margin-left: 30px;">
+                <div style="margin-left: 30px;"><a href="#" style="background-color:#4774A8;"
+                    class="text-decoration-none link-light">PHOTO OF THE DAY</a></div>
+                <div class="text-decoration-none"
+                  style="color: rgb(0, 0, 0); font-size: small; text-align: center; width: 85%; margin-left: 20px;"> In
+                  this pool photograph distributed by the Russian state agency Sputnik, Russia's President Vladimir
+                  Putin and Indian Prime Minister Narendra Modi take a walk during an informal meeting at the
+                  Novo-Ogaryovo state residence, outside Moscow, on July 8, 2024.</div>
+                <div style="font-style: italic; font-size: small; margin-left: 30px; margin-top: 20px;">Image: Gavriil
+                  Grigorov / Pool / AFP </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-12"><img src="/images/borderss.png" alt="" style="height: auto; width: 100%;"></div>
+          <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Popular Now</h2>
+          <div class="col-12">
+            <div class="row">
+              <div class="d-flex flex-column gap-2  col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/img_236520_dennis_woodside.jpg" height="auto" width="100%">
+                <span><a href="" class="text-decoration-none link-light bg-warning">LEADERSHIP</a></span>
+                <span style="font-size:large; font-weight:500;">"We will tap our India advantage for international
+                  expansion": Freshworks CEO</span>
+              </div>
+              <div class="d-flex flex-column gap-2 col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/img_236517_russia_indiapoliticaldiplomacy.jpg" height="auto" width="100%">
+                <span><a href="" class="text-decoration-none link-light bg-warning">PHOTO OF THE DAY</a></span>
+                <span style="font-size:large; font-weight:500;">"Photo of the day: Balancing equations</span>
+
+              </div>
+              <div class=" d-flex flex-column gap-2 col-xs-12  col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <img src="/images/img_236514_prashantjain.jpg" height="auto" width="100%">
+                <span><a href="" style="background-color: #4774A8;" class="text-decoration-none link-light ">TAKE ONE:
+                    BIG STORY OF THE DAY</a></span>
+                <span style="font-size:large; font-weight:500;">There isn't room for current market multiples to move
+                  up: Prashant Jain</span>
+
+
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-4 position-relative ">
+        <img class="iykyk" src="/images/forbesindiacover_bg_20240702095423_300x500.jpg" alt="" width="50%">
+        <div class="container" style="width: 50%;">
+          <h5 style="text-align: center;" class="fs-6"> Subscribe today and save upto 76% off the cover price.</h5>
         </div>
+        <div class="container" style="width: 50%;">
+          <h6 style="text-align: center; font-size: x-small; margin-top: 45px;"> All Access + Weekly Delivery.
+            Both the print magazine and full digital access.</h6>
         </div>
-        <div class="col-4 position-relative ">
-          <img  class="iykyk" src="/images/forbesindiacover_bg_20240702095423_300x500.jpg" alt="" width="50%">
-           <div class="container" style="width: 50%;"><h5 style="text-align: center;" class="fs-6"> Subscribe today and save upto 76% off the cover price.</h5></div>
-           <div class="container" style="width: 50%;"><h6 style="text-align: center; font-size: x-small; margin-top: 45px;"> All Access + Weekly Delivery.
-            Both the print magazine and full digital access.</h6></div>
 
-        </div>  
       </div>
     </div>
-    <div class="container-fluid bg-dark" >
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h1 class="text-light">Multimedia</h1>
-          </div>
-          <div class="col-6 mt-3">
-            <a href="#" class="link-dark text-decoration-none bg-light p-1 rounded-pill  p-2 px-4">ALL</a>
-          </div>
+  </div>
+  <div class="container-fluid bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="text-light">Multimedia</h1>
+        </div>
+        <div class="col-6 mt-3 d-flex gap-2 ">
+          <a href="#" class="link-dark text-decoration-none bg-light p-1 rounded-pill  p-2 px-4">ALL</a>
+          <div class="d-flex gap-2"> <img src="/images/icons8-camera-50.png" height="auto" width="30%"><a href="#"
+              class="text-decoration-none link-light " style="font-size: smaller;">PHOTO</a></div>
+          <div> <img src="/images/icons8-video-camera-50.png" height="auto" width="30%"><a href="#"
+              class="text-decoration-none link-light" style="font-size: smaller;">VIDEO</a></div>
+          <div> <img src="/images/icons8-headphone-24.png" height="auto" width="30%"><a href="#"
+              class="text-decoration-none link-light" style="font-size: smaller;">AUDIO</a></div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
